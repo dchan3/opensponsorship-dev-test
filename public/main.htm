@@ -1,0 +1,35 @@
+<div class="panel panel-default">
+  <div class="panel-heading">Submissions</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <td>
+          Name
+        </td>
+        <td>
+          Sport
+        </td>
+        <td>
+          Date of Birth
+        </td>
+      </tr>
+    </thead>
+    <tbody ng-repeat="athlete in athletes">
+      <tr>
+        <td>
+          {{athlete.name}}
+        </td>
+        <td>
+          {{athlete.sport}}
+        </td>
+        <td>
+          {{athlete.dob}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+<a class="btn btn-primary" href="#!/add">
+  Add Athlete
+</a>

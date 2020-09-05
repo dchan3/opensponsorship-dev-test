@@ -1,0 +1,18 @@
+<form>
+  <div class="form-group">
+    <h3>Basic Information</h3>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" ng-model="formData.name" />
+    </div>
+    <div class="form-group">
+      <label for="sport">Sport</label>
+      <input type="text" id="sport" ng-model="formData.sport" />
+    </div>
+    <div class="form-group">
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" ng-model="formData.dob" />
+    </div>
+  </div>
+  <a class="btn btn-primary" href="/#!/confirm" ng-click="makeAthlete()">Submit</a>
+</form>
